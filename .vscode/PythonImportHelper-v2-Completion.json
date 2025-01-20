@@ -1,0 +1,47 @@
+[
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "Prices",
+        "kind": 5,
+        "importPath": "matrix_mul",
+        "description": "matrix_mul",
+        "peekOfCode": "Prices = [[300, 500],\n          [1000, 120.85]]\nArray2 = [200, 100]\n# Calculate the result\nAns = []\n# (300*200 + 500*100) as an example calculation\nfor i in range(len(Prices)):\n    row_sum = 0\n    for j in range(len(Prices[0])):\n        #Multiple each element in Prices by the corresponding element in Array 2",
+        "detail": "matrix_mul",
+        "documentation": {}
+    },
+    {
+        "label": "Array2",
+        "kind": 5,
+        "importPath": "matrix_mul",
+        "description": "matrix_mul",
+        "peekOfCode": "Array2 = [200, 100]\n# Calculate the result\nAns = []\n# (300*200 + 500*100) as an example calculation\nfor i in range(len(Prices)):\n    row_sum = 0\n    for j in range(len(Prices[0])):\n        #Multiple each element in Prices by the corresponding element in Array 2\n        row_sum += Prices[i][j] * Array2[j]\n    Ans.append(row_sum)",
+        "detail": "matrix_mul",
+        "documentation": {}
+    },
+    {
+        "label": "Ans",
+        "kind": 5,
+        "importPath": "matrix_mul",
+        "description": "matrix_mul",
+        "peekOfCode": "Ans = []\n# (300*200 + 500*100) as an example calculation\nfor i in range(len(Prices)):\n    row_sum = 0\n    for j in range(len(Prices[0])):\n        #Multiple each element in Prices by the corresponding element in Array 2\n        row_sum += Prices[i][j] * Array2[j]\n    Ans.append(row_sum)\n# Print the result\nprint(Ans)",
+        "detail": "matrix_mul",
+        "documentation": {}
+    }
+]
